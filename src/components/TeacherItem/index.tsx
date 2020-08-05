@@ -27,9 +27,9 @@ const TeacherItem: React.FC = () => {
 
                 <footer>
                 <p>
-                    Price/hour
+                    Monitor
                     <strong>
-                    $ 40,00
+                    Voluntário
                     </strong>
                 </p>
                 <button type='button'>
