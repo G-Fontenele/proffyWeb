@@ -1,47 +1,63 @@
 import React from 'react';
 
 import wppIcon from '../../assets/images/icons/whatsapp.svg';
-
+import api from '../../services/api';
 // import { Container } from './styles';
 
 import './styles.css';
 
-const TeacherItem: React.FC = () => {
-  return (
-        <article className='teacher-item'>
-            <header>
-            <img src='https://avatars1.githubusercontent.com/u/54777894?s=460&u=593935bf87ddc04cfd871a2402daeb9c1104a190&v=4' alt='user' />
-            <div>
-                <strong>
-                Gonçalo Fontenele
-                </strong>
-                <span>
-                Matemática
-                </span>
 
-                <p>
-                Proffy mais louco.
-                <br /><br />
-                Professor é o membro do Magistério que exerce atividade docente, oportunizando a educação do aluno, cujas atribuições do cargo encontram-se elencadas no Decreto Nº 23.354, de 11 de outubro de 1974,os deveres relacionados no artigo 120, da Lei 6.672/74, as incumbências
-                </p>
 
-                <footer>
-                <p>
-                    Monitor
-                    <strong>
-                    Voluntário
-                    </strong>
-                </p>
-                <button type='button'>
-                    <img src={wppIcon} alt='Whatsapp Icon' />
-                    Call Proffy
-                </button>
-                </footer>
-            </div>
-        </header>
+export interface Teacher {
+    id: number;
+    avatar: string;
+    bio: string;
+    cost: number;
+    name: string;
+    subject: string;
+    whatsapp: string;
+  }
+  
+export interface TeacherItemProps {
+teacher: Teacher;
+}
 
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
+function createNewConnection() {
+    api.post('connections', {
+    user_id: teacher.id,
+    });
+}
+
+return (
+    <article className="teacher-item">
+    <header>
+        <img src={teacher.avatar} alt={teacher.name} />
+        <div>
+        <strong>{teacher.name}</strong>
+        <span>{teacher.subject}</span>
+        </div>
+    </header>
+    <p>{teacher.bio}</p>
+
+    <footer>
+        <p>
+        Cost
+        <strong>$ {teacher.cost}</strong>
+        </p>
+        <a
+        onClick={createNewConnection}
+        target="_blank"
+        href={`https://wa.me/${teacher.whatsapp}`}
+        >
+        <img  src={wppIcon} alt="Whatsapp"/>
+        Call Proffy
+        </a>
+    </footer>
     </article>
-  )
+);
 }
 
 export default TeacherItem;
+
