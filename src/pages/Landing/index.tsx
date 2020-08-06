@@ -31,22 +31,22 @@ function Landing() {
               <div className="logo-container">
                 <img src={logo} alt='proffy' />
                 <h2>
-                    Your online classroom platform
+                    Sua plataforma de estudos online!
                 </h2>
               </div>
                 <img src={landingImg} alt='Plataforma de estudos' className='hero-image' />
                     <div className="buttons-container">
                         <Link to='/study' className='study'>
                             <img src={studyIcon} alt='Study' />
-                            Study
+                            Estudar
                         </Link>
                         <Link to='/give-classes' className='give-classes'>
                             <img src={giveClassesIcon} alt='Give Classes' />
-                            Be a Proffy
+                            Ser um Proffy
                         </Link>
                 </div>
               <span className='total-connections'>
-                {totalConnections} connections already made <img src={purpleHeartIcon} alt='Purple heart' />
+                {totalConnections} conexões realizadas! <img src={purpleHeartIcon} alt='Purple heart' />
               </span>
           </div>
       </div>

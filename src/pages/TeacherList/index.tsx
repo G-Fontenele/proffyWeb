@@ -36,11 +36,11 @@ function TeacherList() {
 
   return  (
     <div id="page-teacher-list" className="container" >
-      <PageHeader title={'These are the available proffys.'}>
+      <PageHeader title={'Esses são os nossos proffys.'}>
         <form action="" id="search-teachers" onSubmit={searchTeachers}>
           <Select 
             name='subject'
-            label='Subject'
+            label='Disciplina'
             value={subject}
             onChange={(e) => { setSubject(e.target.value) }} 
             options={[
@@ -60,23 +60,23 @@ function TeacherList() {
           />
           <Select 
             name='week-day'
-            label='Week Day' 
+            label='Dia da Semana' 
             value={week_day}
             onChange={(e) => { setWeekDay(e.target.value) }} 
             options={[
-              { value: '0', label: 'Sunday' },
-              { value: '1', label: 'Monday' },
-              { value: '2', label: 'Tuesday' },
-              { value: '3', label: 'Wednesday' },
-              { value: '4', label: 'Thursday' },
-              { value: '5', label: 'Friday' },
-              { value: '6', label: 'Saturday' },
-             ]}
+              { value: '0', label: 'Domingo' },
+              { value: '1', label: 'Segunda' },
+              { value: '2', label: 'Terça' },
+              { value: '3', label: 'Quarta' },
+              { value: '4', label: 'Quinta' },
+              { value: '5', label: 'Sexta' },
+              { value: '6', label: 'Sábado' },
+            ]}
           />
           <Input 
             type='time' 
             name='time' 
-            label='Available time'
+            label='Horário Disponível'
             value={time}
             onChange={(e) => { 
               setTime(e.target.value)
@@ -84,7 +84,7 @@ function TeacherList() {
           />
 
           <button type='submit'>
-            Search
+            Buscar
           </button>
         </form>
       </PageHeader>
