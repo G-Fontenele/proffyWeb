@@ -1,4 +1,25 @@
 :root {
+    --platinum: hsla(0, 0%, 90%, 1);
+    --oxford-blue: rgba(66, 87, 133, 0.829);
+    --oxford-blue: rgb(32, 50, 90);
+    --oxford-blue: hsla(221, 51%, 16%, 1);
+    --oxford-blue: rgb(15, 27, 53);
+    --oxford-blue: rgb(16, 30, 59);
+    --orange-web: hsla(37, 98%, 53%, 1);
+    --orange-web: rgb(255, 157, 0);
+    --white: hsla(0, 0%, 100%, 1);
+    --oxford-blue: rgb(149, 168, 211);
+    --oxford-blue: rgb(3, 10, 26);
+    --platinum: hsla(0, 0%, 90%, 1);
+    --oxford-blue: rgba(42, 51, 71, 0.747);
+    --platinum: hsla(0, 0%, 90%, 1);
+    --platinum: hsla(0, 0%, 90%, 1);
+    --platinum: hsla(0, 0%, 90%, 1);
+    --platinum: hsla(0, 0%, 90%, 1);
+    --platinum: hsla(0, 0%, 90%, 1);
+
+
+
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
