@@ -1,5 +1,39 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# NLW #02 - React App created during Next Level Week 2
+
+## Proffy
+
+Proffy is a web interface to connect students and teachers.
+
+## Landing Page
+
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyLanding.png?raw=true)
+*Landing Page WebView*
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyLandingMobile.png?raw=true)
+*Landing Page MobileWebView*
+
+## Study Page
+
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyStudy1.png?raw=true)
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyStudy2.png?raw=true)
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyStudy3.png?raw=true)
+
+## Whatsapp API Connection
+
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyWppApi1.png?raw=true)
+*If the user calls proffy, it will redirect to whatsapp api*
+
+## Teacher and Teacher Forms
+
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyTeacherForm.png?raw=true)
+*Form of teachers joining Page WebView*
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyTeacherFormMobile.png?raw=true)
+*Form of teachers joining Page MobileWebView*
+
+
+### For more about how using the web app, check the following:
+
 ## Available Scripts
 
 In the project directory, you can run:
