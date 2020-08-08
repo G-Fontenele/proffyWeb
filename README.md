@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Proffy is a web interface to connect students and teachers.
 
+### App backend is in https://github.com/G-Fontenele/proffyBackend
+
 ## Landing Page
 
 ![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyLanding.png?raw=true)
