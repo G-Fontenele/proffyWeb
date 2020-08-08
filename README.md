@@ -10,8 +10,7 @@ Proffy is a web interface to connect students and teachers.
 
 ![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyLanding.png?raw=true)
 *Landing Page WebView*
-![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyLandingMobile.png?raw=true)
-*Landing Page MobileWebView*
+
 
 ## Study Page
 
@@ -28,9 +27,12 @@ Proffy is a web interface to connect students and teachers.
 
 ![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyTeacherForm.png?raw=true)
 *Form of teachers joining Page WebView*
+
+## Mobile Web acess View
+![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyLandingMobile.png?raw=true)
+*Landing Page MobileWebView*
 ![alt text](https://github.com/G-Fontenele/project_images/blob/master/Imagens/proffyTeacherFormMobile.png?raw=true)
 *Form of teachers joining Page MobileWebView*
-
 
 ### For more about how using the web app, check the following:
 
